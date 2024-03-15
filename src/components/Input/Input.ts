@@ -18,7 +18,8 @@ export const Input = styled.input`
     border: 1px solid #ccc;
     outline: none;
     box-sizing: border-box;
-    animation: ${rotate} 2s alternate-reverse infinite;
+    /* animation: ${rotate} 2s alternate-reverse infinite; */
+    background-color: ${props => props.theme.primary};
     transition: 0.3s;
     &:focus {
         border: 1px solid red;
