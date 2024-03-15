@@ -1,10 +1,11 @@
 import './App.css'
-import { Card } from './components/Card'
+import { CardStyledComponent } from './components/CardSyledComponent'
+// import { Card } from './components/Card'
 
 function App() {
   return (
     <>
-      <Card />
+      <CardStyledComponent />
     </>
   )
 }
